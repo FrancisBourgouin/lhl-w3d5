@@ -1,0 +1,16 @@
+//Example of nesting & variable & import
+
+@import 'variables';
+
+ul{
+    display:block;
+    li{
+        text-decoration: underline;
+        ul{
+            display:flex;
+            li{
+                color:$primary-color;
+            }
+        }
+    }
+}
